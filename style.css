@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+}
+h1{
+    color: rebeccapurple;
+    font-family: 'Neucha', cursive;
+}
+#apps{
+    width:100%;
+    height:800;
+    background-color: aliceblue;
+}
+.lines{
+    height:6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+#games{
+    height: 500;
+    width: 100%;
+    background-color: aliceblue;
+}
+img{
+    width: 200px;
+    height: 200px;
+    transition: transform .2s;
+}
+img:hover{
+    transform: scale(0.9);
+}
